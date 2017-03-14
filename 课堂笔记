@@ -1,1 +1,42 @@
-
+#打开终端操作（Linux）
+   ctrl+alt+t
+#路径操作 
+1. 切换目录 cd xxx 
+2. 列出文件名 ls   
+3. 获得当前绝对路径 pwd
+#文件操作  
+1. 创建文件 touch xxx   
+2. 拷贝文件 co xxx yyy  
+3. 移动或者重命名文件 mv xxx yyy  
+4. 删除文件 rm xxx  
+#目录操作   
+1. 创建目录 mkdir   
+2. 拷贝目录 cp -a   
+3. 移动或者重命名文件 mv xxx yyy   
+4. 删除文件 rm xxx -r   
+#vim的基本使用    
+     1 $ sudo apt-get install vim  
+1. 进入插入模式a，i   
+2. 进入命令模式Esc      
+3. 进入底行模式：wp    
+4. 复制命令yy  
+5. 粘贴p    
+6. 剪切dd  
+7. 移动h，j，k，l   
+8. 撤销u   
+9.替换r 
+# 常用命令   
+ls    显示文件或目录   
+    -1     列出文件详细信息l（list）   
+    -a    列出当前目录下所有文件及目录，包括隐藏的a（all）   
+mkdir     创建目录     
+      -p      创建目录，若无副目录，则创建p（parent）   
+cd    切换目录     
+touch     创建空文件夹   
+echo      创建带有内容的文件   
+cat        查看文件内容      
+cp        拷贝       
+mv          移动或重命名      
+rm       删除文件       
+      -r           递归删除，可删除子目录及文件       
+      -f           强制删除
